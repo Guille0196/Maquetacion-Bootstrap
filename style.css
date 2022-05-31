@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    background-color:darkslategray;
+}
+
+
+.container {
+    background-color: black;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container p{
+    color: white;
+}
+
+footer {
+    height: 50px;
+    margin-top: auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.faq {
+    background-color: black;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 10px;
+    height: 100vh;
+}
+
